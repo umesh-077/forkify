@@ -1,11 +1,10 @@
-import View from './View';
+import View from './View.js';
 import previewView from './previewView.js';
-import icons from 'url:../../img/icons.svg'; // parcel version 2
-import resultsView from './resultsView';
+import icons from 'url:../../img/icons.svg'; // Parcel 2
 
 class BookmarksView extends View {
   _parentElement = document.querySelector('.bookmarks__list');
-  _errorMessage = 'No bookmarks yet. Find a nice recipe and bookmark it :)';
+  _errorMessage = 'No bookmarks yet. Find a nice recipe and bookmark it ;)';
   _message = '';
 
   addHandlerRender(handler) {
